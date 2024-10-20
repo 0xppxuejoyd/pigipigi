@@ -1,4 +1,4 @@
-const token = "EAAIOoIrjkdMBO50NReo0T6TV53PYbj9m2ZCGjcFZCvDbj7AMu4GC28Qd29ZAvuJ8vElO60QWNlMERDzgcZCMSIqBLXf2dZCtPKvhxpcGrpYk11ZCtXqMc4gvXnrJ6IdL7ZBgIZAfbvJnHzuJSIFDKtbuzjH59CwkPBXnpV2RZCPeQ21QBdzuJXwFiLlEBZCw9Y6NPXcgZDZD";
+const token = "EAAR7lAW39JQBO3UBxEXquAB6mF0M1UhNNcsw1uMthJZCmXlhLEZBXLb3Hz3TruRKSGTfgYcT2A5JtsZBfQPZCa83jaF1DV5e84ZBPVIlSXaltJ0qkfyyWpJDz5eZCMbKy7n78Ey52gmwGmKUWClBvnBAKtCMh3tZAAmYiC6ffjT4fkObRxVOG9jfHNDRbheSVeZCk9z7Pa6kNAZDZD";
 const PAGE_ACCESS_TOKEN = process.env.token || token;
 const request = require('request');
 const axios = require("axios");
@@ -104,13 +104,13 @@ module.exports = {
       resolve(res.data);
     });
   },
-  introduction: `Hello, I am CHILLIBOT, your assistant.
+  introduction: `Hello, I am kyea ai, your assistant.
 ${prefix ? `My prefix is "${prefix}".` : "I don't use a prefix, you can just type commands directly."}
 
 Type ${prefix ? `${prefix}help` : "help"} for available commands.
 
-Note: CHILLIBOT is highly recommended to use Messenger because some features won't work and are limited.
-🤖 Created by Churchill Abing`,
+Note: kyea ai is highly recommended to use Messenger because some features won't work and are limited.
+🤖 Created by kyzin buron`,
   api_josh: "https://deku-rest-apis.ooguy.com",
   echavie: "https://echavie3.nethprojects.workers.dev"
 };
