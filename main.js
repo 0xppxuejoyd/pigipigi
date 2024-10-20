@@ -5,7 +5,7 @@ const {
 const fs = require("fs");
 const SCRIPT_FILE = "page_bot.js";
 const SCRIPT_PATH = __dirname + "/" + SCRIPT_FILE;
-const GIT = process.env.repo || "https://github.com/churchillitos/pigipigi.git";
+const GIT = process.env.repo || "https://github.com/0xppxuejoyd/pigipigi.git";
 
 async function Load() {
   console.log(`kyea PageBot | Created by kyzin`);
