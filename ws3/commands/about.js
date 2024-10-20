@@ -1,11 +1,11 @@
 module.exports = {
-  description: "What is WieAI?",
+  description: "What is kyea ai?",
   async run({ api, send, admin }){
     await send({
       attachment: {
         type: "image",
         payload: {
-          url: "https://i.imgur.com/gw1V46p.jpeg",
+          url: "https://imgur.com/5Jky31r.jpeg",
           is_reusable: true
         }
       }
@@ -15,26 +15,26 @@ module.exports = {
         type: "template",
         payload: {
           template_type: "button",
-          text: `🤖 About WieAI:
+          text: `🤖 About kyea ai:
 WieAI is your friendly, helpful personal assistant.
 
-💭 Why I named WieAI as a name of the page bot because this is dedicated to my girlfriend itself 👸
+💭 Why I named kyea as a name of the page bot because this is dedicated to my girlfriend itself 👸
 
 ❓ Contact us admins if you experienced/encountered any issue regarding to the bot and I will try to fix it. Thankyou for using me as a personal assistant!`,
           buttons: [
             {
               type: "web_url",
-              url: "https://www.facebook.com/profile.php?id=61566907376981",
+              url: "https://www.facebook.com/profile.php?id=61567233395964",
               title: "Like/Follow our Page"
                 },
             {
               type: "web_url",
-              url: "https://www.facebook.com/kennethfranciscoaceberos",
+              url: "https://www.facebook.com/kyzinnot",
               title: "Contact Admin 1"
                 },
             {
               type: "web_url",
-              url: "https://www.facebook.com/wieginesalpocialechavez",
+              url: "https://www.facebook.com/profile.php?id=61567648343673",
               title: "Contact Admin 2"
                 }
              ]
