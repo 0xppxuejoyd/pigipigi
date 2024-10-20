@@ -8,7 +8,7 @@ const SCRIPT_PATH = __dirname + "/" + SCRIPT_FILE;
 const GIT = process.env.repo || "https://github.com/churchillitos/pigipigi.git";
 
 async function Load() {
-  console.log(`chillibot PageBot | Created by chilli`);
+  console.log(`kyea PageBot | Created by kyzin`);
   const execute = async (cmd) => {
     await new Promise(async (resolve, reject) => {
       const buang = await exec(cmd, {
